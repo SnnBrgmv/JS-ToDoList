@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0453;
+}
+.todo{
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 10vh;
+    
+}
+.todo .heading{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.todo .heading div{
+width: 25%;
+height: 5vh;
+background-color: rgb(36, 35, 35);
+display: flex;
+align-items: center;
+}
+.todo .body{
+    width: 100%;
+    display: flex;
+}
+.todo .body>div{
+    width: 25%;
+    height: 65vh;
+}
+.todo .body div:first-child{
+background-color: white;
+}
+.todo .body div:nth-child(2){
+    background-color: #e9e9e96b;
+}
+.todo .body div:nth-child(3){
+    background-color: white;
+}
+.todo .body div:last-child{
+    background-color: #e9e9e96b;
+}
+.todo .body div .task{
+    color: black;
+    width: 80%;
+    margin: auto;
+    border: .5px solid rgb(202, 198, 198);
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.todo .body div .task i{
+    margin-left: 75px;
+}
